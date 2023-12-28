@@ -1,0 +1,28 @@
+{
+  "name": "@bfehub/gtex",
+  "version": "0.0.1",
+  "description": "提取/复制 Git 暂存状态的文件",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "haiweilian@foxmail.com",
+  "bin": {
+    "gtex": "./bin/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bfehub/gtex.git"
+  },
+  "keywords": [
+    "git",
+    "git-status",
+    "files-extract"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "minimatch": "^9.0.3",
+    "minimist": "^1.2.8",
+    "staged-git-files": "^1.3.0"
+  }
+}
