@@ -1,11 +1,12 @@
 #!/usr/bin/env node
 
-const minimist = require("minimist");
-const gtex = require("../");
+import process from 'node:process'
+import minimist from 'minimist'
+import gtex from '../index.js'
 
 async function main() {
-  const argv = minimist(process.argv.slice(2));
-  await gtex(argv);
+  const argv = minimist(process.argv.slice(2))
+  await gtex(argv)
 }
 
-main();
+main()
