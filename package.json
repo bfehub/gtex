@@ -1,7 +1,7 @@
 {
   "name": "@bfehub/gtex",
   "type": "module",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "提取/复制 Git 暂存状态的文件",
   "author": "haiweilian@foxmail.com",
   "license": "MIT",
