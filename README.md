@@ -40,5 +40,8 @@ gtex file | .gtex/.gitignore
 
 配置示例 `gtex --dest=".dist" --filter="*.js"`
 
-- `--dest` 输出目录，添加到 `.gitignore` 配置中。
-- `--filter` 文件过滤，使用 [minimatch](https://github.com/isaacs/minimatch) 匹配。
+| 配置项   | 默认值  | 示例值             | 说明                                                                   |
+| -------- | ------- | ------------------ | ---------------------------------------------------------------------- |
+| `dest`   | `.gtex` | `--dest=".dist"`   | 输出目录，添加到 `.gitignore` 配置中。                                 |
+| `filter` | `*`     | `--filter="*.js"`  | 文件过滤，使用 [minimatch](https://github.com/isaacs/minimatch) 匹配。 |
+| `zip`    | -       | `--zip="dist.zip"` | 压缩文件，配置压缩名称后会生成压缩包。                                 |

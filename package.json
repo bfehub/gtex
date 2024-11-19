@@ -25,6 +25,7 @@
     "release": "release-it"
   },
   "dependencies": {
+    "adm-zip": "^0.5.16",
     "minimatch": "^9.0.3",
     "minimist": "^1.2.8",
     "staged-git-files": "^1.3.0"
